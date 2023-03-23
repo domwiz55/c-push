@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+
+public class Program
+{
+	public static void Main()
+	{
+		Stack<string> myList = new Stack<string>();
+		myList.Push("apples");
+		myList.Push("bananas");
+		myList.Push("oranges");
+		foreach (var item in myList)
+			 Console.Write(item + ",");
+
+	}
+}
